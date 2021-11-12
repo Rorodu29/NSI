@@ -1,0 +1,23 @@
+
+Exercice 1 :
+
+1) tete(l2) = 1
+2) tete(l1) = 6
+3) est_vide(queue(l1)) = false
+4) tete(queue(queue(queue(l4)))) = 5
+5) est_vide(queue(queue(l2))) = true
+
+Exercice 2 :
+l1 = cons(6, cons(1, cons(7, nil)))
+l2 = cons(1, cons(7, nil))
+l3 = cons(3, cons(5, cons(6, cons(1, cons(7, nil)))))
+l4 = cons(8, cons(3, cons(5, cons(6, cons(1, cons(7, nil))))))
+
+Exercice 3 :
+
+'''
+>>> longueur(nil)
+0
+>>> longueur(cons(7, cons(0, cons(12, nil))))
+3
+'''
